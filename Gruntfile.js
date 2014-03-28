@@ -68,6 +68,7 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: [
+          'assets/jccc/*.less',
           'assets/less/*.less',
           'assets/less/bootstrap/*.less'
         ],
