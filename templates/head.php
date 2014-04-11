@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php printf('<link rel="shortcut icon" href="%s" type="image/x-icon"/>', get_template_directory_uri() . '/assets/jccc/favicon.png', __FILE__); ?>
 
   <?php wp_head(); ?>
 
