@@ -6,14 +6,47 @@
 @jccc-light-blue: #ceeef8;
 @jccc-dark-blue: #3a98bd;
 
-@body-bg: @jccc-parchment;
+@body-bg: #baddea;
 @navbar-default-bg: @jccc-dark-blue;
 @navbar-default-link-color: @jccc-parchment;
 @navbar-default-color:  @jccc-parchment;
 
+@breadcrumb-separator: ">";
 
-h1, h2, h3, .navbar-brand {
-  color: @jccc-orange;
-  font-family: "ChunkFiveRegular";
-  text-transform: uppercase;
+
+
+.container {
+    background-color: #fcfcf5;
 }
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+.container {
+  
+      padding:0 20px;
+}
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+ .container {
+     padding:0 40px;
+}
+   }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+ .container {
+ 
+      padding:0 60px;
+} }
+
+//h1, h2, h3, .navbar-brand {
+//  color: @jccc-orange;
+//  font-family: "ChunkFiveRegular";
+//  text-transform: uppercase;
+//}
